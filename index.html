@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale-1">
-        <title>Calculadora</title>
-        <link rel="stylesheet" type="txt/css" href="css/estilo.css">
-    </head>
-    <body>
-        <center><h1>Calculadora</h1></center>
-            <div id="Calcular">
-                <div id="operaciones">0</div>
-                <ul>
-                    <li class="numero">1</li>
-                    <li class="numero">2</li>
-                    <li class="numero">3</li>
-                    <li class="operador">+</li>
-                    <li class="numero">4</li>
-                    <li class="numero">5</li>
-                    <li class="numero">6</li>
-                    <li class="operador">-</li>
-                    <li class="numero">7</li>
-                    <li class="numero">8</li>
-                    <li class="numero">9</li>
-                    <li class="operador">*</li>
-                    <li class="decimal">.</li>
-                    <li class="numero">0</li>
-                    <li class="igual">=</li>
-                </ul>
-                <div id="Borrar">BORARR</div>
-            </div>
-            <script type="text/javascript" src="js/Funciones.js"></script>
-    </body>
+<head>
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="css/Ptavida.css">
+</head>
+<body>
+	<div class="calculadora">
+		<div class="display">
+			<p id="result">0</p>
+		</div>
+		<div class="buttons">
+			<button class="button operator" id="clear">C</button>
+			<button class="button operator" id="backspace">⌫</button>
+			<button class="button operator" id="percentage">%</button>
+			<button class="button operator" id="division">÷</button>
+
+			<button class="button number" id="7">7</button>
+			<button class="button number" id="8">8</button>
+			<button class="button number" id="9">9</button>
+			<button class="button operator" id="multiplication">x</button>
+
+			<button class="button number" id="4">4</button>
+			<button class="button number" id="5">5</button>
+			<button class="button number" id="6">6</button>
+			<button class="button operator" id="subtraction">-</button>
+
+			<button class="button number" id="1">1</button>
+			<button class="button number" id="2">2</button>
+			<button class="button number" id="3">3</button>
+			<button class="button operator" id="addition">+</button>
+
+			<button class="button number" id="0">0</button>
+			<button class="button number" id="decimal">.</button>
+			<button class="button operator" id="equals">=</button>
+		</div>
+	</div>
+
+	<script src="js/Funciones.js"></script>
+</body>
 </html>
